@@ -1,0 +1,46 @@
+# 依赖
+node_modules/
+*/node_modules/
+package-lock.json
+*/package-lock.json
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+*/.env
+*/.env.local
+
+# 调试文件
+captcha_debug.png
+*.log
+logs/
+*/logs/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试覆盖率
+coverage/
+*/coverage/
+
+# 构建输出
+dist/
+build/
+*/dist/
+*/build/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 数据库连接配置
+config/db.js.local
